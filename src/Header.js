@@ -5,11 +5,12 @@ import './styles.css';
 function Header() {
   return (
     <header>
-      <h1>Haus der Musik</h1>
+      <h1>Academia de Música: Haus der Musik</h1>
       <nav>
-        <ul>
-          <li><a href="#contacto">Contacto</a></li>
+        <ul>                  
+          <li><a href="#profesores">Profesores</a></li>
           <li><a href="#precios">Precios</a></li>
+          <li><a href="#contacto">Contacto</a></li> 
         </ul>
       </nav>
     </header>
