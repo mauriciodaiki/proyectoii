@@ -2,21 +2,53 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #DCDCDC;
 }
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
+/* Estilo header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #FFFAF0;
+  border-radius: 25px;
+  flex-direction: column;
+  padding: 1em 4em;
+}
+
+.logo {
+  height: 125px; /* Ajusta según el tamaño deseado */
+  border-radius: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 1.25em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
 }
 
 /* Estilo Contacto */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 #contacto {
     text-align: center;
     padding: 20px;
     background-color: #fff;
 }
 
-.logo {
+.logowa {
     width: 20px;
     height: 20px;
 }
@@ -70,27 +102,6 @@ h2 {
 .tabla-precios tr:hover {
     background-color: #f1f1f1;
 }
-
-header {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #007bff;
-  }
 
   /* Estilos Profesores */
   .professors-section {
